@@ -21,12 +21,12 @@
 <details>
  <summary>🥟 Help me!</summary>
  
- [Trakteer](https://trakteer.id/aris187id)
+ [Trakteer](https://trakteer.id/rezahasyim)
  
 </details>
 
 WARNING:
-MAU RE-UPLOAD SCRIPT? KASIH NAMA/LINK CHANEL SAYA.... DILARANG UBAH INFO!!!
+JANGAN MAEN-MAEN JANGAN MAEN-MAEN🐍🐍🐍🐍
 
 NOTE: 
 SCRIPTNYA JANGAN DI JUAL/BELI KAN.. SCRIPT INI 100% GRATIS BUAT KALIAN PENGGUNA TERMUX
