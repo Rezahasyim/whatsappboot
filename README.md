@@ -45,7 +45,7 @@ Siapin alat dan bahannya.
 > aplikasi whatsapp
 > aplikasi termux
 > kopi+rokok ;v
-```
+> Dan yang terakhir jangan lupa ngoclok
 
 ### Cara Installnya
 Script ini di modifikasi sama saya sendiri Aris187 ID.
