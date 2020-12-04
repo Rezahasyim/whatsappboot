@@ -5,16 +5,16 @@
 * JANGAN MODAL NAMA DOANG BOSQ
 * HARGAILAH YY MEMBUAT SCRIPT INI BOSQ
 * JANGAN UBAH-UBAH INFO!!!
-* ARIS187 ID
+* Rezahasyim
 * BOLEH UBAH TAPI KECUALI INFO!!!
 */
-const A187 = '👾AR15BOT👾'; // JANGAN UBAH-UBAH INFO!!!
-const instagram = 'https://instagram.com/_sadboy.ig'; // JANGAN UBAH-UBAH INFO!!!
-const nomer = 'Wa.me/+6285722553839'; // JANGAN UBAH-UBAH INFO!!!
+const A187 = '👾Rezahasyim👾'; // JANGAN UBAH-UBAH INFO!!!
+const instagram = 'https://www.instagram.com/rezaahmadhasyim/'; // JANGAN UBAH-UBAH INFO!!!
+const nomer = 'Wa.me/+6282319482394'; // JANGAN UBAH-UBAH INFO!!!
 const aktif = 'Tergantung jaringan'; // JANGAN UBAH-UBAH INFO!!!
-const groupwhatsapp = 'https://chat.whatsapp.com/GU6NsgZvfgw37vrjIxUPhP'; // JANGAN UBAH-UBAH INFO!!!
+const groupwa = 'https://chat.whatsapp.com/I1WoeFxA6XnImSIX0EGoYM'; // JANGAN UBAH-UBAH INFO!!!
 const youtube = 'https://www.youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg'; // JANGAN UBAH-UBAH INFO!!!
-//A187ID
+//RezaBOT
 const qrcode = require("qrcode-terminal");
 const moment = require("moment");
 const cheerio = require("cheerio");
@@ -32,7 +32,7 @@ const aris1 = require("./lib/aris1.js");
 const aris2 = require("./lib/aris2.js");
 const aris3 = require("./lib/aris3.js");
 const aris4 = require("./lib/aris4.js");
-//A187ID
+//RezaBOT
 const
 {
    WAConnection,
@@ -92,7 +92,7 @@ conn.on('message-new', async(m) =>
    const messageType = Object.keys(messageContent)[0] // message will always contain one key signifying what kind of message
    let imageMessage = m.message.imageMessage;
    console.log(`[ ${moment().format("HH:mm:ss")} ] => Nomor: [ ${id.split("@s.whatsapp.net")[0]} ] => ${text}`);
-   //GroupsA187ID
+   //GroupsRezaBOT
 
 if (text.includes("#buatgrup"))
    {
@@ -110,7 +110,7 @@ conn.sendMessage(group.gid, "hello everyone", MessageType.extendedText) // say h
 
 }
 
-// FFA187ID
+// FFRezaBOT
 if(text.includes("#cek")){
 var num = text.replace(/#cek/ , "")
 var idn = num.replace("0","+62");
@@ -123,7 +123,7 @@ console.log(exists);
 conn.sendMessage(id ,`${gg} ${exists ? " exists " : " does not exist"} on WhatsApp`, MessageType.text)
 }
 
-//ChatA187ID
+//ChatRezaBOT
 else if (text == 'assalamualaikum'){
 conn.sendMessage(id, ' _3aalaikumsalam, _Iyah aku disini kak...ada yang bisa kami bantu? Ketik *#help* untuk melihat fitur bot kami🙏_ ' ,MessageType.text);
 }
@@ -173,7 +173,7 @@ else if (text == '#donasi'){
 conn.sendMessage(id, ' *Menampilkan Donasi!!!* ' ,MessageType.text);
 }
 else if (text == '#creator'){
-conn.sendMessage(id, ' *Creator AR15BOT wa.me/+6285722553839* ' ,MessageType.text);
+conn.sendMessage(id, ' *Creator Rezahasyim wa.me/+6282319482394* ' ,MessageType.text);
 }
 else if (text == 'Pagi'){
 conn.sendMessage(id, ' _Pagi juga, Iyah aku disini kak...ada yang bisa kami bantu? Ketik *#help* untuk melihat fitur bot kami🙏_ ' ,MessageType.text);
@@ -269,7 +269,7 @@ else if (text == 'Thanks'){
 conn.sendMessage(id, ' _Sama sama, semoga harimu menyenangkan :)_ ' ,MessageType.text);
 }
 
-// FiturA187ID
+// FiturRezahsyim
 
 if (text.includes('#nulis')){
   var teks = text.replace(/#nulis /, '')
