@@ -56,7 +56,7 @@ Script ini di modifikasi oleh Rezahasyim
 > pkg install git && pkg install wget && pkg install ffmpeg && pkg install nodejs
 > apt update && apt upgrade
 > git clone https://github.com/Rezahasyim/whatsappbot
-> cd AR15BOT
+> cd whatsappbot
 > npm i -g cwebp && npm i -g ytdl && npm i  && npm i got && node index js
 > Tinggal scan kode qr yeee...done
 ```
