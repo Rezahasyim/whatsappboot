@@ -1,11 +1,11 @@
 /*
 * JANGAN UBAH-UBAH INFO!!!
 * "JANGAN MODAL NAMA DOANG BRO!!!"
-* SCRIPT BY ARIS187 ID
+* SCRIPT BY rezabot
 * JANGAN MODAL NAMA DOANG BOSQ
 * HARGAILAH YY MEMBUAT SCRIPT INI BOSQ
 * JANGAN UBAH-UBAH INFO!!!
-* ARIS187 ID
+* rezabot
 * BOLEH UBAH TAPI KECUALI INFO!!!
 */
 const rezabot = '👾REZABOT👾'; // JANGAN UBAH-UBAH INFO!!!
@@ -28,10 +28,10 @@ const imageToBase64 = require('image-to-base64');
 const reza = require("./lib/aris.js");
 const donate = require("./lib/donate.js");
 const info = require("./lib/info.js");
-const reza1 = require("./lib/aris1.js");
-const reza2 = require("./lib/aris2.js");
-const reza3 = require("./lib/aris3.js");
-const reza4 = require("./lib/aris4.js");
+const reza1 = require("./lib/reza1.js");
+const reza2 = require("./lib/reza2.js");
+const reza3 = require("./lib/reza3.js");
+const reza4 = require("./lib/reza4.js");
 const readTextInImage = require('./lib/ocr')
 //rezabot
 const
