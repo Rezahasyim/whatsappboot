@@ -25,7 +25,7 @@ const fetch = require('node-fetch');
 const urlencode = require("urlencode");
 const axios = require("axios");
 const imageToBase64 = require('image-to-base64');
-const reza = require("./lib/aris.js");
+const reza = require("./lib/reza.js");
 const donate = require("./lib/donate.js");
 const info = require("./lib/info.js");
 const reza1 = require("./lib/reza1.js");
@@ -94,7 +94,7 @@ conn.on('message-new', async(m) =>
    const messageType = Object.keys(messageContent)[0] // message will always contain one key signifying what kind of message
    let imageMessage = m.message.imageMessage;
    console.log(`[ ${moment().format("HH:mm:ss")} ] => Nomor: [ ${id.split("@s.whatsapp.net")[0]} ] => ${text}`);
-   //GroupsA187ID
+   //Groupsrezabot
 
 if (text.includes("!buatgrup"))
    {
