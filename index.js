@@ -8,11 +8,11 @@
 * ARIS187 ID
 * BOLEH UBAH TAPI KECUALI INFO!!!
 */
-const A187 = '👾AR15BOT👾'; // JANGAN UBAH-UBAH INFO!!!
-const instagram = 'https://instagram.com/_sadboy.ig'; // JANGAN UBAH-UBAH INFO!!!
-const nomer = 'Wa.me/+6285722553839'; // JANGAN UBAH-UBAH INFO!!!
+const A187 = '👾REZABOT👾'; // JANGAN UBAH-UBAH INFO!!!
+const instagram = 'https://instagram.com/_rezaahmadhasyim.ig'; // JANGAN UBAH-UBAH INFO!!!
+const nomer = 'Wa.me/+6282319482394'; // JANGAN UBAH-UBAH INFO!!!
 const aktif = 'Tergantung jaringan'; // JANGAN UBAH-UBAH INFO!!!
-const groupwhatsapp = 'https://chat.whatsapp.com/GU6NsgZvfgw37vrjIxUPhP'; // JANGAN UBAH-UBAH INFO!!!
+const groupwhatsapp = 'https://chat.whatsapp.com/I1WoeFxA6XnImSIX0EGoYM'; // JANGAN UBAH-UBAH INFO!!!
 const youtube = 'https://www.youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg'; // JANGAN UBAH-UBAH INFO!!!
 //A187ID
 const qrcode = require("qrcode-terminal");
@@ -25,15 +25,15 @@ const fetch = require('node-fetch');
 const urlencode = require("urlencode");
 const axios = require("axios");
 const imageToBase64 = require('image-to-base64');
-const aris = require("./lib/aris.js");
+const reza = require("./lib/aris.js");
 const donate = require("./lib/donate.js");
 const info = require("./lib/info.js");
-const aris1 = require("./lib/aris1.js");
-const aris2 = require("./lib/aris2.js");
-const aris3 = require("./lib/aris3.js");
-const aris4 = require("./lib/aris4.js");
+const reza1 = require("./lib/aris1.js");
+const reza2 = require("./lib/aris2.js");
+const reza3 = require("./lib/aris3.js");
+const reza4 = require("./lib/aris4.js");
 const readTextInImage = require('./lib/ocr')
-//A187ID
+//whatsappboot
 const
 {
    WAConnection,
@@ -64,7 +64,7 @@ conn.on('qr', qr =>
    {
       small: true
    });
-   console.log(`[ ${moment().format("HH:mm:ss")} ] AR15BOT ready scan now!`);
+   console.log(`[ ${moment().format("HH:mm:ss")} ] REZABOT ready scan now!`);
 });
 
 conn.on('credentials-updated', () =>
@@ -79,11 +79,11 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 //conn.connectOptions.agent = ProxyAgent ('http://1.0.180.120:8080')
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @_sadboy.ig`))
+conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @_rezaahmadhasyim.ig`))
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @_sadboy.ig`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @_rezaahmadhasyim.ig`)
 })
 
 conn.on('message-new', async(m) =>
@@ -112,7 +112,7 @@ conn.sendMessage(group.gid, "hello everyone", MessageType.extendedText) // say h
 
 }
 
-// FFA187ID
+// FFwhatsappboot
 if(text.includes("!cek")){
 var num = text.replace(/!cek/ , "")
 var idn = num.replace("0","+62");
@@ -125,7 +125,7 @@ console.log(exists);
 conn.sendMessage(id ,`${gg} ${exists ? " exists " : " does not exist"} on WhatsApp`, MessageType.text)
 }
 
-//ChatA187ID
+//Chatwhatsappboot
 else if (text == 'assalamualaikum'){
 conn.sendMessage(id, ' _3aalaikumsalam, _Iyah aku disini kak...ada yang bisa kami bantu? Ketik *#help* untuk melihat fitur bot kami🙏_ ' ,MessageType.text);
 }
@@ -151,7 +151,7 @@ else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
 else if (text == '#owner'){
-conn.sendMessage(id, ' *Owner AR15BOT wa.me/+6285722553839* ' ,MessageType.text);
+conn.sendMessage(id, ' *Owner Rezahasyim wa.me/+6282319482394* ' ,MessageType.text);
 }
 else if (text == '#help'){
 conn.sendMessage(id, ' *Menampilkan Pilihan Menu!!!* ' ,MessageType.text);
@@ -175,7 +175,7 @@ else if (text == '#donasi'){
 conn.sendMessage(id, ' *Menampilkan Donasi!!!* ' ,MessageType.text);
 }
 else if (text == '#creator'){
-conn.sendMessage(id, ' *Creator AR15BOT wa.me/+6285722553839* ' ,MessageType.text);
+conn.sendMessage(id, ' *Creator Rezahasyim wa.me/+6282319482394* ' ,MessageType.text);
 }
 else if (text == 'Pagi'){
 conn.sendMessage(id, ' _Pagi juga, Iyah aku disini kak...ada yang bisa kami bantu? Ketik *#help* untuk melihat fitur bot kami🙏_ ' ,MessageType.text);
@@ -271,7 +271,7 @@ else if (text == 'Thanks'){
 conn.sendMessage(id, ' _Sama sama, semoga harimu menyenangkan :)_ ' ,MessageType.text);
 }
 
-// FiturA187ID
+// Fiturwhatsappboot
 
 if (text.includes('!nulis')){
   var teks = text.replace(/!nulis /, '')
@@ -932,22 +932,22 @@ else if (text == '!foto'){
 conn.sendMessage(id, 'kirim !foto cewek/cowok\n\nContoh: !foto cewek' ,MessageType.text);
 }
 else if (text == '#help'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾AR15BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_sadboy.ig_' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾REZABOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_rezaahmadhasyim.ig_' ,MessageType.text);
 }
 else if (text == '#menu1'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾AR15BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_sadboy.ig_' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾REZABOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_rezaahmadhasyim.ig_' ,MessageType.text);
 }
 else if (text == '#menu'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾AR15BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_sadboy.ig_' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾REZABOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_rezaahmadhasyim.ig_' ,MessageType.text);
 }
 else if (text == '#menu2'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾AR15BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_sadboy.ig_' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾REZABOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_rezaahmadhasyim.ig_' ,MessageType.text);
 }
 else if (text == '#menu3'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾AR15BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_sadboy.ig_' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾REZABOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_rezaahmadhasyim.ig_' ,MessageType.text);
 }
 else if (text == '#menu4'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾AR15BOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_sadboy.ig_' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *👾REZABOT👾* , Follow Instagram Mimin Yah😻 : https://instagram.com/_rezaahmadhasyim.ig_' ,MessageType.text);
 }
    if (messageType == 'imageMessage')
    {
