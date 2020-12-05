@@ -102,7 +102,7 @@ Script ini di modifikasi oleh Rezahasyim
 Ket: Aktiv 24 jam
 
 ## Note
-BOT INI KHUSUS HP/TERMUX DOANG YAH,JIKA MAU RE-UPLOAD CANTUMKAN NAMA SAYA (ARIS187 ID)
+BOT INI KHUSUS HP/TERMUX DOANG YAH,JIKA MAU RE-UPLOAD CANTUMKAN NAMA SAYA RezaBoot
 
 ## WARNING
 Jangan ubah ubah info, Hargai Karya orang lain bro
