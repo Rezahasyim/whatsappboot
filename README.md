@@ -5,16 +5,16 @@
 <a href="#"><img title="👾Rezahasyim👾" src="https://img.shields.io/badge/AR15BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/A187ID"><img title="Author" src="https://img.shields.io/badge/AUTHOR-ARIS187 ID-orange.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/A187ID"><img title="Author" src="https://img.shields.io/badge/Reza-Hasyim-orange.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
-<a href="https://www.codefactor.io/repository/github/a187id/ar15bot"><img title="Rating" src="https://www.codefactor.io/repository/github/A187ID/AR15BOT/badge/master"></a>
+<a href="https://www.codefactor.io/repository/github/Rezahasyim/whatsappboot"><img title="Rating" src="https://www.codefactor.io/repository/github/Rezahasyim/whatsappboot/badge/master"></a>
 </p>
 <p align="center">
-<a href="https://github.com/A187ID/AR15BOT/followers"><img title="Followers" src="https://img.shields.io/github/followers/A187ID?color=blue&style=flat-square"></a>
-<a href="https://github.com/A187ID/AR15BOT/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/A187ID/AR15BOT?color=red&style=flat-square"></a>
-<a href="https://github.com/A187ID/AR15BOT/network/members"><img title="Forks" src="https://img.shields.io/github/forks/A187ID/AR15BOT?color=red&style=flat-square"></a>
-<a href="https://github.com/A187ID/AR15BOT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/A187ID/AR15BOT?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/Rezahasyim/whatsappboot/followers"><img title="Followers" src="https://img.shields.io/github/followers/Rezahasyim?color=blue&style=flat-square"></a>
+<a href="https://github.com/Rezahasyim/whatsappboot/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Rezahasyim/whatsappboot?color=red&style=flat-square"></a>
+<a href="https://github.com/A187ID/AR15BOT/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Rezahasyim/whatsappboot?color=red&style=flat-square"></a>
+<a href="https://github.com/Rezahasyim/whatsappboot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Rezahasyim/whatsappboot?label=Watchers&color=blue&style=flat-square"></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FArugaZ%2Fwhatsapp-bot&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
 </p>
 <div align="center">
@@ -45,7 +45,7 @@ Siapin alat dan bahannya.
 > aplikasi whatsapp
 > aplikasi termux
 > kopi+rokok ;v
-> Dan yang terakhir jangan lupa ngoclok
+> Dan yang Jangan lupa baca Bismillahirrahmanirrahim
 
 ### Cara Installnya
 Script ini di modifikasi oleh Rezahasyim
